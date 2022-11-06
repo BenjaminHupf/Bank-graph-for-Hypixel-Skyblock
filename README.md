@@ -1,4 +1,4 @@
-# [ENTER HEADLINE HERE]
+# Hypixel Skyblock - Banking graph
 <a href="https://www.python.org/downloads/release/python-3107/"><img src="https://img.shields.io/badge/python-3.10.7-success?style=for-the-badge&logo=python&logoColor=white"></img></a> <!-- Shield that shows the necessary programming language plus version -->
 <img src="https://img.shields.io/badge/Last%20update-07.11.2022-blue?style=for-the-badge"></img> <!-- Shield that shows the last time the readMe got updated -->
 <a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GNU%20GPLv3-important?style=for-the-badge"></img></a> <!-- Shield that shows the license of the program -->
@@ -20,9 +20,17 @@ Short, one-sentence description of the project
 - <a href="#tests-and-results">Tests and results</a> <!-- OPTIONAL -->
 - <a href="#problems">Problems</a> <!-- OPTIONAL -->
 - <a href="#license-and-credits">License and credits</a>
-- <a href="#postscript">Postscript</a> <!-- OPTIONAL -->
 
 ## How to install
+The banking graph program requires:
+- <a href="https://www.python.org/downloads/release/python-3107/">Python 3.10.7</a>
+- requests
+- pickle
+- time
+- os
+- matplotlib
+- A Hypixel API Key
+- Your Minecraft Player UUID
 
 <!-- First a list of all the requirements to run the program 
 If necessary use #### Headlines for subcategories
@@ -52,13 +60,10 @@ e.g. Accuracy
 
 ## License and credits
 
-This work is made available under the **[ENTER LICENSE HERE]**.
+This work is made available under the **GNU General Public License v3.0**.
 
-Project made by <a href="https://github.com/TachLaif">TechLife</a>. (Special thanks to: )
+Project made by <a href="https://github.com/TachLaif">TechLife</a>.
 <br><br><a href="https://discord.com"><img src="https://img.shields.io/badge/TechLife-4447-informational?style=for-the-badge&logo=discord&logoColor=white"></a><br><a href="https://twitter.com/_Tech4Life_"><img src="https://img.shields.io/badge/Twitter-@__Tech4Life__-informational?style=for-the-badge&logo=twitter&logoColor=white"></a><br><a href="https://www.buymeacoffee.com/TechLife"><img src="https://img.shields.io/badge/Buy%20me%20a-coffee-red?style=for-the-badge&logo=buymeacoffee&logoColor=white" title="I like coffee!"></a>
-
-## Postscript
-<!-- OPTIONAL -->
 
 <!-- Sources and Explanations 
 [^1]: www.google.com
