@@ -54,9 +54,16 @@ e.g. Accuracy
 -->
 
 ## Problems 
-<!-- OPTIONAL -->
 
-<!-- Some known or to be expected problems, for example because the program is only a proof of concept -->
+Sometimes the program does not recieve the required banking data from the Hypixel API this prblem is 'solved' in the program with try-except. When you see the following being printed in the terminal:
+
+```
+Could not connect to Hypixel Banking API. Please try again in a few moments.
+```
+
+you have to restart the program.
+
+In a future version I plan to automatically restart the problem but for the moment I ran out of time.
 
 ## License and credits
 
