@@ -1,36 +1,50 @@
 # Hypixel Skyblock - Banking graph
-<a href="https://www.python.org/downloads/release/python-3107/"><img src="https://img.shields.io/badge/python-3.10.7-success?style=for-the-badge&logo=python&logoColor=white"></img></a> <!-- Shield that shows the necessary programming language plus version -->
-<img src="https://img.shields.io/badge/Last%20update-07.11.2022-blue?style=for-the-badge"></img> <!-- Shield that shows the last time the readMe got updated -->
-<a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GNU%20GPLv3-important?style=for-the-badge"></img></a> <!-- Shield that shows the license of the program -->
-
-
+<a href="https://www.python.org/downloads/release/python-3107/"><img src="https://img.shields.io/badge/python-3.10.7-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
+<img src="https://img.shields.io/badge/Last%20update-07.11.2022-blue?style=for-the-badge"></img>
+<a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GNU%20GPLv3-important?style=for-the-badge"></img></a>
 
 ## Description
-<!-- 
-Short, one-sentence description of the project
--->
+Hypixel SkyBlock - Banking graph is a small program which I have written to get the coop bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
 
+(Planned feature for the future: A version which also shows the private bank accounts of all coop players)
 
 ## Table of Contents
 - <a href="#description">Description</a>
 - <a href="#table-of-contents">Table of Contents</a>
 - <a href="#how-to-install">How to install</a>
+  - <a href="#installing-the-libraries">Installing the libraries</a>
+  - <a href="#how-to-get-a-hypixel-api-key">How to get the Hypixel API key</a>
+  - <a href="#how-to-get-your-minecraft-player-uuid">How to get your Minecraft Player UUID</a>
 - <a href="#how-to-use">How to use</a>
 - <a href="#how-it-works">How it works</a>
-- <a href="#tests-and-results">Tests and results</a> <!-- OPTIONAL -->
-- <a href="#problems">Problems</a> <!-- OPTIONAL -->
 - <a href="#license-and-credits">License and credits</a>
 
 ## How to install
 The banking graph program requires:
 - <a href="https://www.python.org/downloads/release/python-3107/">Python 3.10.7</a>
-- requests
+- <a href="https://pypi.org/project/requests/">requests</a>
+- <a href="https://pypi.org/project/matplotlib/">matplotlib</a>
 - pickle
 - time
 - os
-- matplotlib
 - A Hypixel API Key
 - Your Minecraft Player UUID
+
+#### Installing the libraries
+The libraries **pickle**, **time** and **os** are pre-installed with Python.
+
+The remaining libraries can be installed with pip using this command:
+```cmd
+pip install requests matplotlib
+```
+
+#### How to get a Hypixel API key
+
+well
+
+#### How to get your Minecraft Player UUID
+
+yeah 'bout that
 
 <!-- First a list of all the requirements to run the program 
 If necessary use #### Headlines for subcategories
@@ -45,25 +59,6 @@ Detailed description of how to install the specific requirements and everything 
 ## How it works
 
 <!-- Detailed description of how the program works and maybe the thought process that went into creating it -->
-
-## Tests and results 
-<!-- OPTIONAL -->
-
-<!-- Some tests run on the program, to ensure and show that everything works without any problems
-e.g. Accuracy 
--->
-
-## Problems 
-
-Sometimes the program does not recieve the required banking data from the Hypixel API this prblem is 'solved' in the program with try-except. When you see the following being printed in the terminal:
-
-```
-Could not connect to Hypixel Banking API. Please try again in a few moments.
-```
-
-you have to restart the program.
-
-In a future version I plan to automatically restart the problem but for the moment I ran out of time.
 
 ## License and credits
 
