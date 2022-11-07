@@ -1,0 +1,1 @@
+This folder is where your previous banking data is stored once you have run the program for the first time.
