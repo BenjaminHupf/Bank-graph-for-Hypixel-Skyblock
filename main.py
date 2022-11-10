@@ -33,7 +33,7 @@ def generateGraph(key: str, uuid: str):
     ).json()
 
     try:
-        filteredData = data['profiles'][1]['banking']['balance']
+        filteredData = data['profiles'][0]['banking']['balance'] # Change the number ( [0] ) to specify your SkyBlock Account
         timeString = time.strftime('%Y.%m.%d-%H:%M', time.localtime())
 
         balanceHistory.append(float(filteredData))
