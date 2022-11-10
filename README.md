@@ -17,6 +17,7 @@ Banking graph for Hypixel Skyblock is a small program which I wrote to get the c
 - <a href="#how-to-use">How to use</a>
   - <a href="#setup-in-hypixel">Setup in Hypixel</a>
   - <a href="#customize-program">Customize program</a>
+  - <a href="#run-the-program">Run the program</a>
 - <a href="#how-it-works">How it works</a>
 - <a href="#license-and-credits">License and credits</a>
 
@@ -87,17 +88,25 @@ Then you can activate the Banking API by clicking on the icon below the gold ing
 When you open __main.py__ with an editor of your choice you will see the following part of the program:
 
 ```python
-apiKey = '[YOUR HYPIXEL API KEY HERE]'
-playerUUID = '[YOUR MINECRAFT PLAYER UUID HERE]'
+  apiKey = '[YOUR HYPIXEL API KEY HERE]'
+  playerUUID = '[YOUR MINECRAFT PLAYER UUID HERE]'
 ```
 
-where you have to put your <a href="#how-to-get-a-hypixel-api-key">Hypixel API key</a> and your <a href="#how-to-get-your-minecraft-player-uuid">Minecraft player UUID.
+Where you have to put your <a href="#how-to-get-a-hypixel-api-key">Hypixel API key</a> and your <a href="#how-to-get-your-minecraft-player-uuid">Minecraft player UUID.</a>
 
 Additionally, you need to specify the SkyBlock-Account you want for the program to get the data from. For this you need to change the number ( [0] ) in this line:
   
 ```python
-  
-  
+  filteredData = data['profiles'][0]['banking']['balance']
+```
+
+You can get this number by subtracting 1 from the Slot number of your SkyBlock-Account.
+
+Example:
+- SkyBlock Slot 1 -> 1 - 1 = 0
+- SkyBlock Slot 3 -> 3 - 1 = 2
+
+#### Run the program
 
 <!-- Everything that has to be done in order for the program to work properly, changes the user can make to customize the result and things the user has to pay attention to, to ensure that the program runs without errors -->
 
