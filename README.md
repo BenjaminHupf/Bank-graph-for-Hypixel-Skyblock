@@ -1,10 +1,10 @@
-# Banking graph for Hypixel Skyblock
+# Bank graph for Hypixel Skyblock
 <a href="https://www.python.org/downloads/release/python-3107/"><img src="https://img.shields.io/badge/python-3.10.7-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
 <img src="https://img.shields.io/badge/Last%20update-07.11.2022-blue?style=for-the-badge"></img>
 <a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GNU%20GPLv3-important?style=for-the-badge"></img></a>
 
 ## Description
-Banking graph for Hypixel Skyblock is a small program which I wrote to get the coop bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
+Bank graph for Hypixel Skyblock is a small program which I wrote to get the coop bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
 
 ## Table of Contents
 - <a href="#description">Description</a>
@@ -13,7 +13,7 @@ Banking graph for Hypixel Skyblock is a small program which I wrote to get the c
   - <a href="#installing-the-libraries">Installing the libraries</a>
   - <a href="#how-to-get-a-hypixel-api-key">How to get the Hypixel API key</a>
   - <a href="#how-to-get-your-minecraft-player-uuid">How to get your Minecraft Player UUID</a>
-  - <a href="#installing-banking-graph">Installing Banking graph</a>
+  - <a href="#installing-bank-graph">Installing Bank graph</a>
 - <a href="#how-to-use">How to use</a>
   - <a href="#setup-in-hypixel">Setup in Hypixel</a>
   - <a href="#customize-program">Customize program</a>
@@ -22,7 +22,7 @@ Banking graph for Hypixel Skyblock is a small program which I wrote to get the c
 - <a href="#license-and-credits">License and credits</a>
 
 ## How to install
-The banking graph program requires:
+The bank graph program requires:
 - <a href="https://www.python.org/downloads/release/python-3107/">Python 3.10.7</a>
 - <a href="https://pypi.org/project/requests/">requests</a>
 - <a href="https://pypi.org/project/matplotlib/">matplotlib</a>
@@ -58,7 +58,7 @@ To find your Minecraft Player UUID go to a page like <a href="https://minecraftu
 
 You have to use the same username on which you have your SkyBlock profiles.
 
-#### Installing Banking graph
+#### Installing Bank graph
 
 To install this program simply download this repository as a .zip file and unpack it in a folder.
 
@@ -108,7 +108,13 @@ Example:
 
 #### Run the program
 
-<!-- Everything that has to be done in order for the program to work properly, changes the user can make to customize the result and things the user has to pay attention to, to ensure that the program runs without errors -->
+After running the program you should see that one new file was created in the main directory of the program and two new files in the data folder. 
+
+The two files in the data directory store your previously recorded bank balances and the timestamps they were recorded. You should leave these files alone, unless you want to restart the graph, then you just have to delete these files. 
+
+The file in the main directory is your graph. If you ran the program only once you will not see much in it, but if you rerun the program when the balance of your bank account in SkyBlock changed, you will see that the graph now actually contains a graph.
+
+**If you do not see a the new files, terminate the program as there might be an error where the program reruns itself because of an error. This was implemented because sometimes the Hypixel API does not send the required banking data so the program reruns itself to compensate this.**
 
 ## How it works
 
