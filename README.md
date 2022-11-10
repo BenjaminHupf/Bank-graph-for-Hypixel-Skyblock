@@ -67,24 +67,43 @@ To install this program simply download this repository as a .zip file and unpac
 
 First of all, you need to enable the Banking API in Hypixel.
 
-To do that you have to join the profile you want this program to work on and open you SkyBlock Menu with the Nether Star in you hotbar. In there you have to open the Settings (Picture 1).
-
-From the settings page you have to navigae to your island settings (Picture 2).
-
-Then you can activate the Banking API by clicking on the icon below the gold ingot (Picture 3). Make sure that the icon is green because otherwise the Hypixel API will not give the required informations needed for the program to wirk.
+To do that you have to join the profile you want this program to work on and open your SkyBlock Menu with the Nether Star in you hotbar. In there you have to open the Settings (Picture 1).
 
 <img src="https://user-images.githubusercontent.com/104715363/200687460-27ce3e0d-0401-42da-b7b6-c621f2057e66.png"><br>
 **Picture 1 - SkyBlock Menu**
+
+From the settings page you have to navigae to your island settings (Picture 2).
+
 <br><br><img src="https://user-images.githubusercontent.com/104715363/200687463-8b11c015-f7d9-4fff-804e-44bdf8c3fc69.png"><br>
 **Picture 2 - Settings**
+
+Then you can activate the Banking API by clicking on the icon below the gold ingot (Picture 3). Make sure that the icon is green because otherwise the Hypixel API will not give the required informations needed for the program to wirk.
+
 <br><br><img src="https://user-images.githubusercontent.com/104715363/200687836-c9fc47cb-80a4-4370-8fef-5c2fdda6bece.png"><br>
 **Picture 3 - Settings - Island Settings**
 
 #### Customize program
+
+When you open __main.py__ with an editor of your choice you will see the following part of the program:
+
+```python
+apiKey = '[YOUR HYPIXEL API KEY HERE]'
+playerUUID = '[YOUR MINECRAFT PLAYER UUID HERE]'
+```
+
+where you have to put your <a href="#how-to-get-a-hypixel-api-key">Hypixel API key</a> and your <a href="#how-to-get-your-minecraft-player-uuid">Minecraft player UUID.
+
+Additionally, you need to specify the SkyBlock-Account you want for the program to get the data from. For this you need to change the number ( [0] ) in this line:
+  
+```python
+  
+  
+
 <!-- Everything that has to be done in order for the program to work properly, changes the user can make to customize the result and things the user has to pay attention to, to ensure that the program runs without errors -->
 
 ## How it works
 
+With magic
 <!-- Detailed description of how the program works and maybe the thought process that went into creating it -->
 
 ## License and credits
