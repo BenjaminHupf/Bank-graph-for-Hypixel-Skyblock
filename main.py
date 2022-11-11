@@ -1,5 +1,5 @@
 # Hypixel-SkyBlock - Banking graph - Made with ♥ by TechLife (https://github.com/TachLaif)
-# Last update: 11.11.2022
+# Last update: 12.11.2022
 #
 # This work is made available under the GNU Affero General Public License v3.0.
 # More informations about the license can be found at
