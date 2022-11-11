@@ -45,7 +45,7 @@ def generateGraph(key: str, uuid: str):
         plt.grid(True)
         plt.xticks(timeHistory, timeHistory, rotation=90)
         plt.tight_layout()
-        plt.savefig('diagram.png')
+        plt.savefig('graph.png')
 
         with open('data/balanceHistory.dat', 'wb') as f:
             pickle.dump(balanceHistory, f)
