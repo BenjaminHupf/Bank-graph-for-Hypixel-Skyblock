@@ -1,7 +1,7 @@
 # Bank graph for Hypixel Skyblock
 <a href="https://www.python.org/downloads/release/python-3107/"><img src="https://img.shields.io/badge/python-3.10.7-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
-<img src="https://img.shields.io/badge/Last%20update-07.11.2022-blue?style=for-the-badge"></img>
-<a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GNU%20GPLv3-important?style=for-the-badge"></img></a>
+<img src="https://img.shields.io/badge/Last%20update-11.11.2022-blue?style=for-the-badge"></img>
+<a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-GNU%20AGPLv3-important?style=for-the-badge"></img></a>
 
 ## Description
 Bank graph for Hypixel Skyblock is a small program which I wrote to get the coop bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
@@ -18,7 +18,7 @@ Bank graph for Hypixel Skyblock is a small program which I wrote to get the coop
   - <a href="#setup-in-hypixel">Setup in Hypixel</a>
   - <a href="#customize-program">Customize program</a>
   - <a href="#run-the-program">Run the program</a>
-- <a href="#how-it-works">How it works</a>
+<!--- <a href="#how-it-works">How it works</a>-->
 - <a href="#license-and-credits">License and credits</a>
 
 ## How to install
@@ -116,14 +116,13 @@ The file in the main directory is your graph. If you ran the program only once y
 
 **If you do not see a the new files, terminate the program as there might be an error where the program reruns itself because of an error. This was implemented because sometimes the Hypixel API does not send the required banking data so the program reruns itself to compensate this.**
 
-## How it works
+<!--## How it works-->
 
-With magic
-<!-- Detailed description of how the program works and maybe the thought process that went into creating it -->
+
 
 ## License and credits
 
-This work is made available under the **GNU General Public License v3.0**.
+This work is made available under the **GNU Affero General Public License v3.0**.
 
 Project made by <a href="https://github.com/TachLaif">TechLife</a>.
 <br><br><a href="https://discord.com"><img src="https://img.shields.io/badge/TechLife-4447-informational?style=for-the-badge&logo=discord&logoColor=white"></a><br><a href="https://twitter.com/_Tech4Life_"><img src="https://img.shields.io/badge/Twitter-@__Tech4Life__-informational?style=for-the-badge&logo=twitter&logoColor=white"></a><br><a href="https://www.buymeacoffee.com/TechLife"><img src="https://img.shields.io/badge/Buy%20me%20a-coffee-red?style=for-the-badge&logo=buymeacoffee&logoColor=white" title="I like coffee!"></a>
