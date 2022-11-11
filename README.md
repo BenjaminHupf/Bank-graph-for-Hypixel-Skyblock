@@ -32,7 +32,7 @@ The bank graph program requires:
 - A Hypixel API Key
 - Your Minecraft Player UUID
 
-#### Installing the libraries
+### Installing the libraries
 The libraries **pickle**, **time** and **os** are pre-installed with Python.
 
 The remaining libraries can be installed with pip using this command:
@@ -41,7 +41,7 @@ The remaining libraries can be installed with pip using this command:
 pip install requests matplotlib
 ```
 
-#### How to get a Hypixel API key
+### How to get a Hypixel API key
 
 To get an API key you have to join <a href="https://hypixel.net">mc.hypixel.net</a> and type the following command in the chat:
 
@@ -52,19 +52,19 @@ To get an API key you have to join <a href="https://hypixel.net">mc.hypixel.net<
 This command will generate you an API key in the chat which you need to reach the Hypixel API, so save it to make sure that you do not lose it and NEVER give it to somebody else.
 
 
-#### How to get your Minecraft Player UUID
+### How to get your Minecraft Player UUID
 
 To find your Minecraft Player UUID go to a page like <a href="https://minecraftuuid.com">minecraftuuid.com</a> and put in your username and it will show you your Player UUID which you should save for later.
 
 You have to use the same username on which you have your SkyBlock profiles.
 
-#### Installing Bank graph
+### Installing Bank graph
 
 To install this program simply download this repository as a .zip file and unpack it in a folder.
 
 ## How to use
 
-#### Setup in Hypixel
+### Setup in Hypixel
 
 First of all, you need to enable the Banking API in Hypixel.
 
@@ -83,7 +83,7 @@ Then you can activate the Banking API by clicking on the icon below the gold ing
 <br><br><img src="https://user-images.githubusercontent.com/104715363/200687836-c9fc47cb-80a4-4370-8fef-5c2fdda6bece.png"><br>
 **Picture 3 - Settings - Island Settings**
 
-#### Customize program
+### Customize program
 
 When you open __main.py__ with an editor of your choice you will see the following part of the program:
 
@@ -106,7 +106,7 @@ Example:
 - SkyBlock Slot 1 -> 1 - 1 = 0
 - SkyBlock Slot 3 -> 3 - 1 = 2
 
-#### Run the program
+### Run the program
 
 After running the program you should see that one new file was created in the main directory of the program and two new files in the data folder. 
 
