@@ -4,7 +4,7 @@
 <a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-GNU%20AGPLv3-important?style=for-the-badge"></img></a>
 
 ## Description
-Bank graph for Hypixel Skyblock is a small program which I wrote to get the coop bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
+Bank graph for Hypixel Skyblock is a small program which I wrote to get the bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
 
 ## Table of Contents
 - <a href="#description">Description</a>
