@@ -35,7 +35,6 @@ def generateGraph(key: str, uuid: str):
     try:
         filteredData = data['profiles'][0]['banking']['balance'] # Change the number ( [0] ) to specify your SkyBlock Account
         timeString = time.strftime('%Y.%m.%d-%H:%M', time.localtime())
-
         balanceHistory.append(float(filteredData))
         timeHistory.append(timeString)
         plt.plot(timeHistory, balanceHistory, color='red')
@@ -46,12 +45,18 @@ def generateGraph(key: str, uuid: str):
         plt.xticks(timeHistory, timeHistory, rotation=90)
         plt.tight_layout()
         plt.savefig('graph.png')
-
         with open('data/balanceHistory.dat', 'wb') as f:
             pickle.dump(balanceHistory, f)
         with open('data/timeHistory.dat', 'wb') as f:
             pickle.dump(timeHistory, f)
-    except:
+    except (KeyError):
+        print('Program ran into a KeyError')
+        print('Hypixel API did not sent the required banking data.')
+        print('If it does not work in a few moments, terminate the program and check if you have the Banking API enabled in Hypixel SkyBlock')
         generateGraph(key, uuid)
+    except (IndexError):
+        print('Program ran into an IndexError')
+        print('Please make sure that you have used the right SkyBlock Profile Number')
+
 if __name__ == '__main__':
     generateGraph(apiKey, playerUUID)
