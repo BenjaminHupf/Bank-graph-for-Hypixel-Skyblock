@@ -124,7 +124,7 @@ W.I.P
 ## Problems
 
 - [ ] **Bug**: When there are too many entries the labels on the x-Axis will overlap each other.
-- [ ] **Improvement idea**: Add multiple different except ways to allow for better error handling.
+- [x] **Improvement idea**: Add multiple different except ways to allow for better error handling.
 
 ## License and credits
 
