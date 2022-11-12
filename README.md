@@ -19,7 +19,7 @@ Bank graph for Hypixel Skyblock is a small program which I wrote to get the bank
   - <a href="#customize-program">Customize program</a>
   - <a href="#run-the-program">Run the program</a>
 - <a href="#how-it-works">How it works</a>
-- <a href="problems">Problems</a>
+- <a href="problems-and-future-plans">Problems and future plans</a>
 - <a href="#license-and-credits">License and credits</a>
 
 ## How to install
@@ -132,10 +132,11 @@ Using these data it creates a graph and saves it as __graph.png__ to the main di
 A generated graph looks like this:
 <br><img src="https://user-images.githubusercontent.com/104715363/201477175-a0e04f39-2798-48e7-be75-205a74220944.png">
 
-## Problems
+## Problems and future plans
 
 - [ ] **Bug**: When there are too many entries the labels on the x-Axis will overlap each other.
 - [x] **Improvement idea**: Add multiple different except ways to allow for better error handling.
+- [ ] **Visual change**: Add a dark mode.
 
 ## License and credits
 
