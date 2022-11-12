@@ -89,8 +89,8 @@ Then you can activate the Banking API by clicking on the icon below the gold ing
 When you open __main.py__ with an editor of your choice you will see the following part of the program:
 
 ```python
-  apiKey = '[YOUR HYPIXEL API KEY HERE]'
-  playerUUID = '[YOUR MINECRAFT PLAYER UUID HERE]'
+apiKey = '[YOUR HYPIXEL API KEY HERE]'
+playerUUID = '[YOUR MINECRAFT PLAYER UUID HERE]'
 ```
 
 Where you have to put your <a href="#how-to-get-a-hypixel-api-key">Hypixel API key</a> and your <a href="#how-to-get-your-minecraft-player-uuid">Minecraft player UUID.</a>
@@ -98,7 +98,7 @@ Where you have to put your <a href="#how-to-get-a-hypixel-api-key">Hypixel API k
 Additionally, you need to specify the SkyBlock-Account you want for the program to get the data from. For this you need to change the number ( [0] ) in this line:
   
 ```python
-  filteredData = data['profiles'][0]['banking']['balance']
+filteredData = data['profiles'][0]['banking']['balance']
 ```
 
 You can get this number by subtracting 1 from the Slot number of your SkyBlock-Account.
@@ -115,11 +115,22 @@ The two files in the data directory store your previously recorded bank balances
 
 The file in the main directory is your graph. If you ran the program only once you will not see much in it, but if you rerun the program when the balance of your bank account in SkyBlock changed, you will see that the graph now actually contains a graph.
 
-**If you do not see a the new files, terminate the program as there might be an error where the program reruns itself because of an error. This was implemented because sometimes the Hypixel API does not send the required banking data so the program reruns itself to compensate this.**
+**Especially when you run the program for the first time or when you changed something in the program, you should watch the terminal because some error messages might be printed there.**
 
 ## How it works
 
-W.I.P
+This program is desinged in a way which allows you to incorporate it in one of your own programs. 
+In the future I plan on uploading a new repository which will be a simple Discord bot that connects to this program and sends the graph to you when you type a command.
+
+When you start the program it first checks if the files __balanceHistory.dat__ and __timeHistory.dat__ exist in the data folder. 
+When they exist the program loads these files as they contain your previous Bank data informations otherwise it will create new files to save your bank history. 
+
+After that it connects to the Hypixel API to recieve the SkyBlock data of the player with the predefined UUID and then it filters the recieved json file so that it just adds the balance to the __balanceHistory.dat__. During that process it also gets the current time (Format: YYYY.MM.DD-hh:mm) and saves to to __timeHistory.dat__.
+
+Using these data it creates a graph and saves it as __graph.png__ to the main directory. Please be aware that this file will be overwritten everytime you rerun the program, so if you like a graph make sure that you copy-paste it to somewhere else.
+
+A generated graph looks like this:
+<br><img src="https://user-images.githubusercontent.com/104715363/201477175-a0e04f39-2798-48e7-be75-205a74220944.png">
 
 ## Problems
 
