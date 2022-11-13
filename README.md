@@ -25,7 +25,7 @@ Bank graph for Hypixel Skyblock is a small program which I wrote to get the bank
 
 ## How to install
 The bank graph program requires:
-- <a href="https://www.python.org/downloads/release/python-3107/">Python 3.10.7</a>
+- <a href="https://www.python.org/downloads/release/python-3107/">Python 3.11.0</a>
 - <a href="https://pypi.org/project/requests/">requests</a>
 - <a href="https://pypi.org/project/matplotlib/">matplotlib</a>
 - pickle
