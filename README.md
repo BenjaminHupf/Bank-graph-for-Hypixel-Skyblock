@@ -1,5 +1,5 @@
 # Bank graph for Hypixel Skyblock
-<a href="https://www.python.org/downloads/release/python-3107/"><img src="https://img.shields.io/badge/python-3.10.7-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
+<a href="https://www.python.org/downloads/release/python-3110/"><img src="https://img.shields.io/badge/python-3.11.0-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
 <img src="https://img.shields.io/badge/Last%20update-13.11.2022-blue?style=for-the-badge"></img>
 <a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/github/license/TachLaif/Banking-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
 
@@ -19,6 +19,7 @@ Bank graph for Hypixel Skyblock is a small program which I wrote to get the bank
   - <a href="#customize-program">Customize program</a>
   - <a href="#run-the-program">Run the program</a>
 - <a href="#how-it-works">How it works</a>
+- <a href="#tests-and-results">Tests and results</a>
 - <a href="#problems-and-future-plans">Problems and future plans</a>
 - <a href="#license-and-credits">License and credits</a>
 
@@ -143,6 +144,10 @@ Using these data it creates a graph and saves it as __graph.png__ to the main di
 
 A generated graph looks like this:
 <br><img src="https://user-images.githubusercontent.com/104715363/201477175-a0e04f39-2798-48e7-be75-205a74220944.png">
+
+## Tests and results
+
+Tested in __Python 3.10.7__ and __Python 3.11.0__, but I recommend __Python 3.11.0__ as it contains some optimizations allowing for faster code.
 
 ## Problems and future plans
 
