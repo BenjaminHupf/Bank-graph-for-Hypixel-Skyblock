@@ -143,7 +143,12 @@ After that it connects to the Hypixel API to recieve the SkyBlock data of the pl
 Using these data it creates a graph and saves it as __graph.png__ to the main directory. Please be aware that this file will be overwritten everytime you rerun the program, so if you like a graph make sure that you copy-paste it to somewhere else.
 
 A generated graph looks like this:
-<br><img src="https://user-images.githubusercontent.com/104715363/201477175-a0e04f39-2798-48e7-be75-205a74220944.png">
+
+Light Mode:
+<br><img src="https://user-images.githubusercontent.com/104715363/201547883-00fbcd53-cf8e-4bea-92ef-97ae5b6d120e.png">
+
+Dark Mode:
+<br><img src="https://user-images.githubusercontent.com/104715363/201547881-7e76a734-af20-43a7-ba3c-3ab5578c6121.png">
 
 ## Tests and results
 
@@ -154,6 +159,7 @@ Tested in __Python 3.10.7__ and __Python 3.11.0__, but I recommend __Python 3.11
 - [ ] **Bug**: When there are too many entries the labels on the x-Axis will overlap each other.
 - [x] **Improvement idea**: Add multiple different except ways to allow for better error handling.
 - [x] **Visual change**: Add a dark mode.
+  - [ ] **Visual change**: Improve dark mode
 
 ## License and credits
 
