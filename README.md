@@ -19,7 +19,7 @@ Bank graph for Hypixel Skyblock is a small program which I wrote to get the bank
   - <a href="#customize-program">Customize program</a>
   - <a href="#run-the-program">Run the program</a>
 - <a href="#how-it-works">How it works</a>
-- <a href="problems-and-future-plans">Problems and future plans</a>
+- <a href="#problems-and-future-plans">Problems and future plans</a>
 - <a href="#license-and-credits">License and credits</a>
 
 ## How to install
