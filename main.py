@@ -1,8 +1,11 @@
-# Bank graph for Hypixel SkyBlock - Made with ♥ by TechLife (https://github.com/TachLaif)
-# Last update: 13.11.2022
+# Copyright (C) 2022 - Benjamin Hupf
+#
+# Bank graph for Hypixel SkyBlock (https://github.com/TachLaif/Bank-graph-for-Hypixel-Skyblock)
+# - Made with ♥ by TechLife (https://github.com/TachLaif)
+# Last update: 14.11.2022
 #
 # This work is made available under the GNU Affero General Public License v3.0.
-# More informations about the license can be found at
+# More informations about the license can be found at:
 # https://www.gnu.org/licenses/agpl-3.0
 
 import requests
@@ -61,4 +64,4 @@ def generateGraph(key: str, uuid: str, darkmode = False):
         print('Please make sure that you have used the right SkyBlock Profile Number')
 
 if __name__ == '__main__':
-    generateGraph(apiKey, playerUUID)
+    generateGraph(apiKey, playerUUID, True)
