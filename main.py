@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 apiKey = '[YOUR HYPIXEL API KEY HERE]'
 playerUUID = '[YOUR MINECRAFT PLAYER UUID HERE]'
 
-def generateGraph(key: str, uuid: str):
+def generateGraph(key: str, uuid: str, darkmode = False):
     if os.path.isfile('data/balanceHistory.dat') and os.path.isfile('data/timeHistory.dat'):
         with open('data/balanceHistory.dat', 'rb') as f:
             balanceHistory = pickle.load(f)
@@ -37,6 +37,8 @@ def generateGraph(key: str, uuid: str):
         timeString = time.strftime('%Y.%m.%d-%H:%M', time.localtime())
         balanceHistory.append(float(filteredData))
         timeHistory.append(timeString)
+        if darkmode:
+            plt.style.use('dark_background')
         plt.plot(timeHistory, balanceHistory, color='red')
         plt.xlabel('Time')
         plt.ylabel('Balance')
