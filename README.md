@@ -1,6 +1,6 @@
 # Bank graph for Hypixel Skyblock
 <a href="https://www.python.org/downloads/release/python-3107/"><img src="https://img.shields.io/badge/python-3.10.7-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
-<img src="https://img.shields.io/badge/Last%20update-12.11.2022-blue?style=for-the-badge"></img>
+<img src="https://img.shields.io/badge/Last%20update-13.11.2022-blue?style=for-the-badge"></img>
 <a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/github/license/TachLaif/Banking-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
 
 ## Description
@@ -107,6 +107,18 @@ Example:
 - SkyBlock Slot 1 -> 1 - 1 = 0
 - SkyBlock Slot 3 -> 3 - 1 = 2
 
+You can also turn on dark mode by adding __True__ or __darkmode = True__ as third parameter in __generateGraph()__. Examples:
+
+```python
+generateGraph(apiKey, playerUUID, True)
+```
+
+OR
+
+```python
+generateGraph(apiKey, playerUUID, darkmode = True)
+```
+
 ### Run the program
 
 After running the program you should see that one new file was created in the main directory of the program and two new files in the data folder. 
@@ -136,7 +148,7 @@ A generated graph looks like this:
 
 - [ ] **Bug**: When there are too many entries the labels on the x-Axis will overlap each other.
 - [x] **Improvement idea**: Add multiple different except ways to allow for better error handling.
-- [ ] **Visual change**: Add a dark mode.
+- [x] **Visual change**: Add a dark mode.
 
 ## License and credits
 
