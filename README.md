@@ -1,7 +1,7 @@
 # Bank graph for Hypixel SkyBlock
 <a href="https://www.python.org/downloads/release/python-3110/"><img src="https://img.shields.io/badge/python-3.11.0-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
 <img src="https://img.shields.io/badge/Last%20update-14.11.2022-blue?style=for-the-badge"></img>
-<a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/github/license/TachLaif/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
+<a href="https://github.com/TachLaif/Bank-graph-for-Hypixel-Skyblock/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TachLaif/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
 
 ## Description
 Bank graph for Hypixel SkyBlock is a small program which I wrote to get the bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
