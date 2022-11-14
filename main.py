@@ -40,12 +40,24 @@ def generateGraph(key: str, uuid: str, darkmode = False):
         timeString = time.strftime('%Y.%m.%d-%H:%M', time.localtime())
         balanceHistory.append(float(filteredData))
         timeHistory.append(timeString)
+        title_color = 'black'
         if darkmode:
-            plt.style.use('dark_background')
+            plt.figure(facecolor = '#1E1E1E')
+            ax = plt.axes()
+            ax.set_facecolor('#1E1E1E')
+            ax.xaxis.label.set_color('white')
+            ax.yaxis.label.set_color('white')
+            ax.tick_params(axis = 'x', colors = 'white')
+            ax.tick_params(axis = 'y', colors = 'white')
+            ax.spines['left'].set_color('white')
+            ax.spines['top'].set_color('white')
+            ax.spines['right'].set_color('white')
+            ax.spines['bottom'].set_color('white')
+            title_color = 'white'
         plt.plot(timeHistory, balanceHistory, color='red')
         plt.xlabel('Time')
         plt.ylabel('Balance')
-        plt.title('Hypixel Skyblock - Bank Balance History')
+        plt.title('Hypixel Skyblock - Bank Balance History', color = title_color)
         plt.grid(True)
         plt.xticks(timeHistory, timeHistory, rotation=90)
         plt.tight_layout()
@@ -64,4 +76,4 @@ def generateGraph(key: str, uuid: str, darkmode = False):
         print('Please make sure that you have used the right SkyBlock Profile Number')
 
 if __name__ == '__main__':
-    generateGraph(apiKey, playerUUID, True)
+    generateGraph(apiKey, playerUUID)
