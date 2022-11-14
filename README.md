@@ -159,7 +159,7 @@ Tested in __Python 3.10.7__ and __Python 3.11.0__, but I recommend __Python 3.11
 - [ ] **Bug**: When there are too many entries the labels on the x-Axis will overlap each other.
 - [x] **Improvement idea**: Add multiple different except ways to allow for better error handling.
 - [x] **Visual change**: Add a dark mode.
-  - [ ] **Visual change**: Improve dark mode
+  - [x] **Visual change**: Improve dark mode
 
 ## License and credits
 
