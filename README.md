@@ -148,7 +148,7 @@ Light Mode:
 <br><img src="https://user-images.githubusercontent.com/104715363/201547883-00fbcd53-cf8e-4bea-92ef-97ae5b6d120e.png">
 
 Dark Mode:
-<br><img src="https://user-images.githubusercontent.com/104715363/201547881-7e76a734-af20-43a7-ba3c-3ab5578c6121.png">
+<br><img src="https://user-images.githubusercontent.com/104715363/201775400-7bb453d5-f84f-4c35-a39c-ee02e54fb6d5.png">
 
 ## Tests and results
 
