@@ -14,7 +14,6 @@ Bank graph for Hypixel SkyBlock is a small program which I wrote to get the bank
 - <a href="#how-to-install">How to install</a>
   - <a href="#installing-the-libraries">Installing the libraries</a>
   - <a href="#how-to-get-a-hypixel-api-key">How to get the Hypixel API key</a>
-  - <a href="#how-to-get-your-minecraft-player-uuid">How to get your Minecraft Player UUID</a>
   - <a href="#installing-bank-graph">Installing Bank graph</a>
 - <a href="#how-to-use">How to use</a>
   - <a href="#setup-in-hypixel">Setup in Hypixel</a>
@@ -34,7 +33,6 @@ The bank graph program requires:
 - time
 - os
 - A Hypixel API Key
-- Your Minecraft Player UUID
 
 ### Installing the libraries
 The libraries **pickle**, **time** and **os** are pre-installed with Python.
@@ -56,13 +54,6 @@ To get an API key you have to join <a href="https://hypixel.net">mc.hypixel.net<
 ```
 
 This command will generate you an API key in the chat which you need to reach the Hypixel API, so save it to make sure that you do not lose it and NEVER give it to somebody else.
-
-
-### How to get your Minecraft Player UUID
-
-To find your Minecraft Player UUID go to a page like <a href="https://minecraftuuid.com">minecraftuuid.com</a> and put in your username and it will show you your Player UUID which you should save for later.
-
-You have to use the same username on which you have your SkyBlock profiles.
 
 ### Installing Bank graph
 
@@ -95,10 +86,10 @@ When you open __main.py__ with an editor of your choice you will see the followi
 
 ```python
 apiKey = '[YOUR HYPIXEL API KEY HERE]'
-playerUUID = '[YOUR MINECRAFT PLAYER UUID HERE]'
+playerUsername = '[YOUR MINECRAFT USERNAME HERE]'
 ```
 
-Where you have to put your <a href="#how-to-get-a-hypixel-api-key">Hypixel API key</a> and your <a href="#how-to-get-your-minecraft-player-uuid">Minecraft player UUID.</a>
+Where you have to put your <a href="#how-to-get-a-hypixel-api-key">Hypixel API key</a> and the name of the Minecraft Account you have your SkyBlock profile on.
 
 Additionally, you need to specify the SkyBlock-Account you want for the program to get the data from. For this you need to change the number ( [0] ) in this line:
   
@@ -115,13 +106,13 @@ Example:
 You can also turn on dark mode by adding __True__ or __darkmode = True__ as third parameter in __generateGraph()__. Examples:
 
 ```python
-generateGraph(apiKey, playerUUID, True)
+generateGraph(apiKey, playerUsername, True)
 ```
 
 OR
 
 ```python
-generateGraph(apiKey, playerUUID, darkmode = True)
+generateGraph(apiKey, playerUsername, darkmode = True)
 ```
 
 ### Run the program
@@ -164,7 +155,7 @@ Tested in __Python 3.10.7__ and __Python 3.11.0__, but I recommend __Python 3.11
 - [x] **Improvement idea**: Add multiple different except ways to allow for better error handling.
 - [x] **Visual change**: Add a dark mode.
   - [x] **Visual change**: Improve dark mode.
-- [ ] **Improvement idea**: Replace the required Minecraft Player UUID with just a required Minecraft username.
+- [x] **Improvement idea**: Replace the required Minecraft Player UUID with just a required Minecraft username.
 
 ## License and credits
 
