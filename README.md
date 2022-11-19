@@ -6,6 +6,8 @@
 ## Description
 Bank graph for Hypixel SkyBlock is a small program which I wrote to get the bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
 
+**You can also use <a href="https://github.com/TachLaif/Discord-bot-for-SkyBlock-graph">Discord bot for SkyBlock graph</a> to use make a Discord bot which uses this program and generates a graph when you type a command in Discord.**
+
 ## Table of Contents
 - <a href="#description">Description</a>
 - <a href="#table-of-contents">Table of Contents</a>
@@ -161,7 +163,8 @@ Tested in __Python 3.10.7__ and __Python 3.11.0__, but I recommend __Python 3.11
 - [ ] **Bug**: When there are too many entries the labels on the x-Axis will overlap each other.
 - [x] **Improvement idea**: Add multiple different except ways to allow for better error handling.
 - [x] **Visual change**: Add a dark mode.
-  - [x] **Visual change**: Improve dark mode
+  - [x] **Visual change**: Improve dark mode.
+- [ ] **Improvement idea**: Replace the required Minecraft Player UUID with just a required Minecraft username.
 
 ## License and credits
 
