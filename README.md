@@ -6,7 +6,7 @@
 ## Description
 Bank graph for Hypixel SkyBlock is a small program which I wrote to get the bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
 
-**You can also use <a href="https://github.com/TachLaif/Discord-bot-for-SkyBlock-graph">Discord bot for SkyBlock graph</a> to use make a Discord bot which uses this program and generates a graph when you type a command in Discord.**
+**You can also use <a href="https://github.com/TachLaif/Discord-bot-for-SkyBlock-graph">Discord bot for SkyBlock graph</a> to make a Discord bot which uses this program and generates a graph when you type a command in Discord.**
 
 ## Table of Contents
 - <a href="#description">Description</a>
