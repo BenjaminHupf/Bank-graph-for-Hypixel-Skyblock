@@ -43,6 +43,8 @@ The remaining libraries can be installed with pip using this command:
 pip install requests matplotlib
 ```
 
+You can also install them with __requirements.txt__.
+
 ### How to get a Hypixel API key
 
 To get an API key you have to join <a href="https://hypixel.net">mc.hypixel.net</a> and type the following command in the chat:
