@@ -128,12 +128,13 @@ The file in the main directory is your graph. If you ran the program only once y
 ## How it works
 
 This program is desinged in a way which allows you to incorporate it in one of your own programs. 
-In the future I plan on uploading a new repository which will be a simple Discord bot that connects to this program and sends the graph to you when you type a command.
+You can also get <a href="https://github.com/TachLaif/Discord-bot-for-SkyBlock-graph">Discord bot for SkyBlock graph</a> which is another program I wrote which uses this program to generate and send the graph to you when you type a command in Discord.
 
 When you start the program it first checks if the files __balanceHistory.dat__ and __timeHistory.dat__ exist in the data folder. 
 When they exist the program loads these files as they contain your previous Bank data informations otherwise it will create new files to save your bank history. 
 
-After that it connects to the Hypixel API to recieve the SkyBlock data of the player with the predefined UUID and then it filters the recieved json file so that it just adds the balance to the __balanceHistory.dat__. During that process it also gets the current time (Format: YYYY.MM.DD-hh:mm) and saves to to __timeHistory.dat__.
+Then it connects to the Mojyng API using your player name to recieve your UUID.
+After that it connects to the Hypixel API to recieve the SkyBlock data of the player with the just recieved UUID and then it filters the recieved json file so that it just adds the balance to the __balanceHistory.dat__. During that process it also gets the current time (Format: YYYY.MM.DD-hh:mm) and saves to to __timeHistory.dat__.
 
 Using these data it creates a graph and saves it as __graph.png__ to the main directory. Please be aware that this file will be overwritten everytime you rerun the program, so if you like a graph make sure that you copy-paste it to somewhere else.
 
