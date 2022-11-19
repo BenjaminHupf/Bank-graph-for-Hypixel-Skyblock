@@ -1,6 +1,6 @@
 # Bank graph for Hypixel SkyBlock
 <a href="https://www.python.org/downloads/release/python-3110/"><img src="https://img.shields.io/badge/python-3.11.0-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
-<img src="https://img.shields.io/badge/Last%20update-14.11.2022-blue?style=for-the-badge"></img>
+<img src="https://img.shields.io/badge/Last%20update-19.11.2022-blue?style=for-the-badge"></img>
 <a href="https://github.com/TachLaif/Bank-graph-for-Hypixel-Skyblock/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TachLaif/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
 
 ## Description
