@@ -1,6 +1,6 @@
 # Bank graph for Hypixel SkyBlock
 <a href="https://www.python.org/downloads/release/python-3110/"><img src="https://img.shields.io/badge/python-3.11.0-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
-<img src="https://img.shields.io/badge/Last%20update-19.11.2022-blue?style=for-the-badge"></img>
+<img src="https://img.shields.io/badge/Last%20update-07.03.2023-blue?style=for-the-badge"></img>
 <a href="https://github.com/TachLaif/Bank-graph-for-Hypixel-Skyblock/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TachLaif/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
 
 ## Description
@@ -75,7 +75,7 @@ From the settings page you have to navigae to your island settings (Picture 2).
 <br><br><img src="https://user-images.githubusercontent.com/104715363/200687463-8b11c015-f7d9-4fff-804e-44bdf8c3fc69.png"><br>
 **Picture 2 - Settings**
 
-Then you can activate the Banking API by clicking on the icon below the gold ingot (Picture 3). Make sure that the icon is green because otherwise the Hypixel API will not give the required informations needed for the program to wirk.
+Then you can activate the Banking API by clicking on the icon below the gold ingot (Picture 3). Make sure that the icon is green because otherwise the Hypixel API will not give the required informations needed for the program to work.
 
 <br><br><img src="https://user-images.githubusercontent.com/104715363/200687836-c9fc47cb-80a4-4370-8fef-5c2fdda6bece.png"><br>
 **Picture 3 - Settings - Island Settings**
