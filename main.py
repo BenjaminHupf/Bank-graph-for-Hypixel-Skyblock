@@ -1,4 +1,4 @@
-# Copyright (C) 2022 - Benjamin Hupf
+# Copyright (C) 2022 - TechLife
 #
 # Bank graph for Hypixel SkyBlock (https://github.com/TachLaif/Bank-graph-for-Hypixel-Skyblock)
 # - Made with ♥ by TechLife (https://github.com/TachLaif)
