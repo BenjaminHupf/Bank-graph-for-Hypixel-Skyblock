@@ -1,6 +1,6 @@
 # Bank graph for Hypixel SkyBlock
 <a href="https://www.python.org/downloads/release/python-3110/"><img src="https://img.shields.io/badge/python-3.11.0-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
-<img src="https://img.shields.io/badge/Last%20update-07.03.2023-blue?style=for-the-badge"></img>
+<img src="https://img.shields.io/badge/Last%20update-04.11.2023-blue?style=for-the-badge"></img>
 <a href="https://github.com/TachLaif/Bank-graph-for-Hypixel-Skyblock/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TachLaif/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
 
 ## Description
@@ -47,13 +47,7 @@ You can also install them with __requirements.txt__.
 
 ### How to get a Hypixel API key
 
-To get an API key you have to join <a href="https://hypixel.net">mc.hypixel.net</a> and type the following command in the chat:
-
-```
-/api
-```
-
-This command will generate you an API key in the chat which you need to reach the Hypixel API, so save it to make sure that you do not lose it and NEVER give it to somebody else.
+To get an API key you have to go to the following website: <a href="https://developer.hypixel.net">https://developer.hypixel.net</a>. On this side you have to login to your account (or create a new one), afterwards you can generate an API Key, which is needed to reach the Hypixel API, make sure to save it to make sure you do not loose it and NEVER give it to somebody else.
 
 ### Installing Bank graph
 
@@ -70,7 +64,7 @@ To do that you have to join the profile you want this program to work on and ope
 <img src="https://user-images.githubusercontent.com/104715363/200687460-27ce3e0d-0401-42da-b7b6-c621f2057e66.png"><br>
 **Picture 1 - SkyBlock Menu**
 
-From the settings page you have to navigae to your island settings (Picture 2).
+From the settings page you have to navigate to your island settings (Picture 2).
 
 <br><br><img src="https://user-images.githubusercontent.com/104715363/200687463-8b11c015-f7d9-4fff-804e-44bdf8c3fc69.png"><br>
 **Picture 2 - Settings**
@@ -102,6 +96,8 @@ You can get this number by subtracting 1 from the Slot number of your SkyBlock-A
 Example:
 - SkyBlock Slot 1 -> 1 - 1 = 0
 - SkyBlock Slot 3 -> 3 - 1 = 2
+
+Note: Hypixel changed something about how the API works, so for our profile the number randomly changed (don't ask me how or why), so if you have multiple accounts and the program fails to get the banking data or gathers the data from a wrong account, try another number. 
 
 You can also turn on dark mode by adding __True__ or __darkmode = True__ as third parameter in __generateGraph()__. Examples:
 
