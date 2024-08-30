@@ -1,7 +1,7 @@
 # Copyright (C) 2022 - Benjamin Hupf
 #
-# Bank graph for Hypixel SkyBlock (https://github.com/TachLaif/Bank-graph-for-Hypixel-Skyblock)
-# - Made with ♥ by Benjamin Hupf (https://github.com/TachLaif)
+# Bank graph for Hypixel SkyBlock (https://github.com/BenjaminHupf/Bank-graph-for-Hypixel-Skyblock)
+# - Made with ♥ by Benjamin Hupf (https://github.com/BenjaminHupf)
 # Last update: 19.11.2022
 #
 # This work is made available under the GNU Affero General Public License v3.0.
