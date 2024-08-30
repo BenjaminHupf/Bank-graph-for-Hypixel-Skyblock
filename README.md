@@ -1,12 +1,12 @@
 # Bank graph for Hypixel SkyBlock
 <a href="https://www.python.org/downloads/release/python-3110/"><img src="https://img.shields.io/badge/python-3.11.0-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
 <img src="https://img.shields.io/badge/Last%20update-04.11.2023-blue?style=for-the-badge"></img>
-<a href="https://github.com/TachLaif/Bank-graph-for-Hypixel-Skyblock/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TachLaif/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
+<a href="https://github.com/BenjaminHupf/Bank-graph-for-Hypixel-Skyblock/blob/main/LICENSE"><img src="https://img.shields.io/github/license/BenjaminHupf/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
 
 ## Description
 Bank graph for Hypixel SkyBlock is a small program which I wrote to get the bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
 
-**You can also use <a href="https://github.com/TachLaif/Discord-bot-for-SkyBlock-graph">Discord bot for SkyBlock graph</a> to make a Discord bot which uses this program and generates a graph when you type a command in Discord.**
+**You can also use <a href="https://github.com/BenjaminHupf/Discord-bot-for-SkyBlock-graph">Discord bot for SkyBlock graph</a> to make a Discord bot which uses this program and generates a graph when you type a command in Discord.**
 
 ## Table of Contents
 - <a href="#description">Description</a>
@@ -124,7 +124,7 @@ The file in the main directory is your graph. If you ran the program only once y
 ## How it works
 
 This program is desinged in a way which allows you to incorporate it in one of your own programs. 
-You can also get <a href="https://github.com/TachLaif/Discord-bot-for-SkyBlock-graph">Discord bot for SkyBlock graph</a> which is another program I wrote which uses this program to generate and send the graph to you when you type a command in Discord.
+You can also get <a href="https://github.com/BenjaminHupf/Discord-bot-for-SkyBlock-graph">Discord bot for SkyBlock graph</a> which is another program I wrote which uses this program to generate and send the graph to you when you type a command in Discord.
 
 When you start the program it first checks if the files __balanceHistory.dat__ and __timeHistory.dat__ exist in the data folder. 
 When they exist the program loads these files as they contain your previous Bank data informations otherwise it will create new files to save your bank history. 
@@ -156,7 +156,7 @@ Tested in __Python 3.10.7__ and __Python 3.11.0__, but I recommend __Python 3.11
 
 ## License and credits
 
-This work is made available under the **<a href="https://github.com/TachLaif/wahl-o-selfie-v2/blob/main/LICENSE">GNU Affero General Public License v3.0</a>**.
+This work is made available under the **<a href="https://github.com/BenjaminHupf/wahl-o-selfie-v2/blob/main/LICENSE">GNU Affero General Public License v3.0</a>**.
 
-Project made by **<a href="https://github.com/TachLaif">Benjamin Hupf</a>**.
+Project made by **<a href="https://github.com/BenjaminHupf">Benjamin Hupf</a>**.
 <br><br><a href="https://twitter.com/BenjaminHupf"><img src="https://img.shields.io/badge/Twitter-@BenjaminHupf-informational?style=for-the-badge&logo=twitter&logoColor=white"></a>
