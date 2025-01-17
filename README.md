@@ -1,7 +1,7 @@
 # Bank graph for Hypixel SkyBlock
 <a href="https://www.python.org/downloads/release/python-3110/"><img src="https://img.shields.io/badge/python-3.11.0-success?style=for-the-badge&logo=python&logoColor=white"></img></a>
 <img src="https://img.shields.io/badge/Last%20update-04.11.2023-blue?style=for-the-badge"></img>
-<a href="https://github.com/BenjaminHupf/Bank-graph-for-Hypixel-Skyblock/blob/main/LICENSE"><img src="https://img.shields.io/github/license/BenjaminHupf/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge"></img></a>
+[<img src="https://img.shields.io/github/license/BenjaminHupf/Bank-graph-for-Hypixel-Skyblock?style=for-the-badge">](LICENSE.md)
 
 ## Description
 Bank graph for Hypixel SkyBlock is a small program which I wrote to get the bank account balance of my coop SkyBlock world and print it to a graph to visualize our progress.
@@ -21,7 +21,6 @@ Bank graph for Hypixel SkyBlock is a small program which I wrote to get the bank
   - <a href="#run-the-program">Run the program</a>
 - <a href="#how-it-works">How it works</a>
 - <a href="#tests-and-results">Tests and results</a>
-- <a href="#problems-and-future-plans">Problems and future plans</a>
 - <a href="#license-and-credits">License and credits</a>
 
 ## How to install
@@ -146,16 +145,8 @@ Dark Mode:
 
 Tested in __Python 3.10.7__ and __Python 3.11.0__, but I recommend __Python 3.11.0__ as it contains some optimizations allowing for faster code.
 
-## Problems and future plans
-
-- [ ] **Bug**: When there are too many entries the labels on the x-Axis will overlap each other.
-- [x] **Improvement idea**: Add multiple different except ways to allow for better error handling.
-- [x] **Visual change**: Add a dark mode.
-  - [x] **Visual change**: Improve dark mode.
-- [x] **Improvement idea**: Replace the required Minecraft Player UUID with just a required Minecraft username.
-
 ## License and credits
 
-This work is made available under the **<a href="https://github.com/BenjaminHupf/wahl-o-selfie-v2/blob/main/LICENSE">GNU Affero General Public License v3.0</a>**.
+This work is made available under the **[GNU Affero General Public License v3.0](LICENSE.md)**.
 
 Project made by **<a href="https://github.com/BenjaminHupf">Benjamin Hupf</a>**.
